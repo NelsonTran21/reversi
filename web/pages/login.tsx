@@ -1,8 +1,6 @@
-import { GuestButton } from "@/components/GuestButton";
-import { LoginButton } from "@/components/LoginButton";
 import Head from "next/head";
 
-export default function Home() {
+export default function Login() {
    return (
       <>
          <Head>
@@ -16,10 +14,7 @@ export default function Home() {
          </Head>
          <main className="flex items-center justify-center flex-col">
             <h1 className="text-3xl font-bold my-8">Reversi</h1>
-            <div className="flex gap-2">
-               <LoginButton />
-               <GuestButton />
-            </div>
+            <div className="flex gap-2">To be implemented...</div>
          </main>
       </>
    );
