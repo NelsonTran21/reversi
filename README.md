@@ -1,0 +1,3 @@
+# Reversi
+
+> Play Reversi online! ⚫⚪
